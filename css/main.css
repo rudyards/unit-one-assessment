@@ -16,6 +16,8 @@ body {
 input {
     text-align: center;
     font-size: 20px;
+    width: 80px;
+    margin: 10px;
 }
 
 button {
@@ -30,3 +32,8 @@ button:hover {
     color: rgb(153, 153, 153);
 }
 
+#userinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
